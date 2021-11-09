@@ -10,12 +10,12 @@
 
 void help(void){
     printf("\nUSAGE : \n");
-    printf("get-hash [option_1 | option_2] Path/To/file\n");
+    printf("get-hash-checksum [option_1 | option_2] Path/To/file\n");
     printf("\noptions:\n");
-    printf("  sha1:\n");
-    printf("  sha256:\n");
-    printf("  sha512:\n");
-    printf("  md5:\n");
+    printf("-sha1:\n");
+    printf("-sha256:\n");
+    printf("-sha512:\n");
+    printf("-md5:\n");
 }
 
 FILE *file_read_routine(void *file_path_str){

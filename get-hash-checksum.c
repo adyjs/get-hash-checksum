@@ -7,7 +7,7 @@
 #include <openssl/md5.h>
 #include <openssl/sha.h>
 #include <ncurses.h>
-#include "libget-hash.h"
+#include "libget-hash-checksum.h"
 
 #define SHA1 0
 #define SHA256 1
@@ -92,9 +92,7 @@ void *hash_routine(void *index){
 
 
 int main(int argc, char *argv[]){
-    initscr();
-    // cbreak();
-    // noecho();
+    // initscr();
     if(argc == 1){
         help();
         exit(1);
@@ -145,14 +143,14 @@ int main(int argc, char *argv[]){
                 break;
             }
         }
-        printw("%s\t:", algo_name);
+        printf("%s\t:", algo_name);
         for(int j=0; j<LEN ; j++){
-            printw("%02x", *(hashes[i]+j));
+            printf("%02x", *(hashes[i]+j));
         }
-        printw("\n");
+        printf("\n");
     }
-    refresh();
-    getch();
-    endwin();
+    // refresh();
+    // getch();
+    // endwin();
     return 0;
 }

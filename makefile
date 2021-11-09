@@ -2,19 +2,19 @@ CC = gcc
 # CFLAGS = -Wall -Werror -std=c99 -ggdb
 CFLAGS =  -std=c99 -ggdb
 LDFLAGS = -lssl -lcrypto -lpthread -lncurses
-LIBS = libget-hash.o
+LIBS = libget-hash-checksum.o
 
-all:	libget-hash.o	get-hash
+all:libget-hash-checksum.o	get-hash-checksum
 
-get-hash:	get-hash.c libget-hash.o
+get-hash-checksum:	get-hash-checksum.c libget-hash-checksum.o
 	${CC} -o $@ $< ${LIBS} ${CFLAGS} ${LDFLAGS}
 
 
-libget-hash.o:	libget-hash.c
-	${CC} -c libget-hash.c
+libget-hash-checksum.o:	libget-hash-checksum.c
+	${CC} -c libget-hash-checksum.c
 
 
 .PHONY:clean
 
 clean:
-	rm get-hash libget-hash.o
+	rm get-hash-checksum libget-hash-checksum.o
