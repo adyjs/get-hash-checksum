@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "libget-hash-checksum.h": "c",
+        "string.h": "c"
+    }
+}
