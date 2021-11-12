@@ -4,21 +4,18 @@
 #include <pthread.h>
 #include <unistd.h>
 // #include <openssl/evp.h>
+// #include <openssl/md2.h>
+#include <openssl/md4.h>
 #include <openssl/md5.h>
 #include <openssl/sha.h>
 #include <ncurses.h>
 #include "libget-hash-checksum.h"
 
-#define SHA1 0
-#define SHA256 1
-#define SHA512 2
-#define MD5 3
 
 
-#define BUF_SIZE 128
-unsigned char *hashes[4];
-char *file_path = NULL;
-pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+// unsigned char *hashes[4];   // for containing hash value
+// char *file_path = NULL; // the path of file that would be hashed
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;  
 
 
 
