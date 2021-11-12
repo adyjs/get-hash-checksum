@@ -8,7 +8,7 @@
 #include <openssl/md4.h>
 #include <openssl/md5.h>
 #include <openssl/sha.h>
-#include <ncurses.h>
+// #include <ncurses.h>
 #include "libget-hash-checksum.h"
 
 
