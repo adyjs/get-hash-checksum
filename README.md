@@ -1,7 +1,7 @@
 # get-hash-checksum
 
 
-## HOW TO USE THIS SOFTWARE
+### HOW TO USE THIS SOFTWARE
 
 ### 1. Install openssl development library -> libssl-dev in Ubuntu
 ```
@@ -10,7 +10,7 @@ $ apt install libssl-dev build-essential
 
 &nbsp;&nbsp;&nbsp;libssl-dev is a library for development with openssl related API.  
 
-&nbsp;&nbsp;&nbsp;build-essential is a package with bunch of building tools, like ggc, ...etc.
+&nbsp;&nbsp;&nbsp;build-essential is a package with bunch of building tools, like gcc, ...etc.
 
 
 
