@@ -3,14 +3,12 @@
 
 ### HOW TO USE THIS SOFTWARE
 
-### 1. Install openssl development library -> libssl-dev in Ubuntu
+### 1. Install development library
 ```
-$ apt install libssl-dev build-essential
+$ apt install libssl-dev
 ```
 
 &nbsp;&nbsp;&nbsp;libssl-dev is a library for development with openssl related API.  
-
-&nbsp;&nbsp;&nbsp;build-essential is a package with bunch of building tools, like gcc, ...etc.
 
 
 
