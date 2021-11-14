@@ -300,35 +300,35 @@ void hash_value_compare(char *unconfirmed_hash){
     printf("---------------------------\n");
     switch(match){
         case MD4:{
-            printf("MD4 Match\n");
+            printf("It's Match with MD4 \n");
             break;
         }
         case MD5:{
-            printf("MD5 Match\n");
+            printf("It's Match with MD5 \n");
             break;
         }
         case SHA1:{
-            printf("SHA-1 Match\n");
+            printf("It's Match with SHA-1 \n");
             break;
         }
         case SHA224:{
-            printf("SHA-224 Match\n");
+            printf("It's Match with SHA-224 \n");
             break;
         }
         case SHA256:{
-            printf("SHA-256 Match\n");
+            printf("It's Match with SHA-256 \n");
             break;
         }
         case SHA384:{
-            printf("SHA-384 Match\n");
+            printf("It's Match with SHA-384 \n");
             break;
         }
         case SHA512:{
-            printf("SHA-512 Match\n");
+            printf("It's Match with SHA-512 \n");
             break;
         }
         default:
-            printf("NOT Match Any.\n");
+            printf("Does not Match Any.\n");
     }
     printf("\n");
     printf("\n");
