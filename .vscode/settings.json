@@ -1,6 +1,9 @@
 {
     "files.associations": {
         "libget-hash-checksum.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "hash_value.h": "c",
+        "get_hash_checksum.h": "c",
+        "hash_config.h": "c"
     }
 }
