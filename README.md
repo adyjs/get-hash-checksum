@@ -16,6 +16,8 @@ $ apt install libssl-dev
 
 ```
 $ cd get-hash-checksum/ && make
+
+# after compiling success, there is a executable file "hash" in root directory. 
 ```
 
 ### 3. get hash value of file
@@ -25,7 +27,7 @@ $ cd get-hash-checksum/ && make
 &nbsp;&nbsp;&nbsp;This command will display the hash value of the "example_file_for_hash".
 
 ```
-$ ./get-hash-checksum   ./files/example_file_for_hash
+$ ./hash  ./files/example_file_for_hash
 ```
 
 ![hash_only_pic](./README.files/hash_only.png)
@@ -35,7 +37,7 @@ $ ./get-hash-checksum   ./files/example_file_for_hash
 &nbsp;&nbsp;&nbsp;This command will display the hash value of the "example_file_for_hash".
 
 ```
-$ ./get-hash-checksum   ./files/example_file_for_hash   YOUR_HASH_VALUE_HERE
+$ ./hash  ./files/example_file_for_hash   YOUR_HASH_VALUE_HERE
 ```
 
 #### MATCH
