@@ -5,7 +5,7 @@
 
 ### 1. Install development library
 ```
-$ apt install libssl-dev  libncurses-dev
+$ apt install libssl-dev
 ```
 
 &nbsp;&nbsp;&nbsp;libssl-dev is a library for development with openssl related API.  
